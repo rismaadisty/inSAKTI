@@ -1,0 +1,51 @@
+body{background:#ecf0f1;color:#000;font-family:'Roboto',sans-serif;font-size:16px;line-height:normal;font-weight:400;text-align:left;color:#000;margin:0;padding:0}
+*{padding:0;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-box-sizing:border-box}
+/* Header Wrapper */
+#top-container{background: rgba(20,43,66,0.7);top:0;left:0;right:0;height:100px;z-index:999;position:fixed;display:inline-block;width:100%;color:#222;transition:height .3s,border .3s;}
+#topfix-container{max-width:970px;margin:0 auto;padding:0;position:relative;}
+/* Header Logo */
+.header-logo{float:left;padding:0}
+#header{padding:0;margin:23px 0 0 0;}
+#header img{float:left;height: 55px;width:45px;margin-right: 20px;}
+#header a span{float:left;font-size:25px;font-weight: 700;color: #fff;margin: 13px 0;}
+/* Menu */
+#nav ul {padding:30px 0;list-style:none;}
+#nav li {float: right;position:relative;}
+#nav li a {padding:10px 13px;display: block;border-radius: 3px;color: #fff;text-decoration: none;text-align: center;font-weight: 600;letter-spacing: .2px}
+#nav li.daftar a {border:1px solid rgba(255,255,255,.4);margin: 0 0 0 10px;}
+#nav li a:hover {background:rgba(255,255,255,.3);color: #fff;}
+#nav li.daftar a:hover {background:rgba(255,255,255,.3);color: #fff;}
+/* Header Back */
+#headerbackbg {background: url(../img/bg.jpeg) no-repeat center bottom;background-attachment: fixed;background-size: cover;margin-bottom: 10px;height:100vh;box-sizing:border-box;position:relative;width: 100%;color: #fff;}
+#headerback {text-align: center;height: 100vh;background: rgba(0,0,0,0.7);}
+/* Fixed Effect */
+.smaller{height:65px;}
+#top-container.smaller{height:65px;color: #222}
+#top-container.smaller #header{padding: 0;margin: 0;}
+#top-container.smaller #header img{height: 45px;width: 40px;margin:10px 20px 0 0;}
+#top-container.smaller #header a span{margin: 17px 0;}
+#top-container.smaller #nav ul{padding: 0;} 
+#top-container.smaller #nav li a{margin-top: 12px;}
+.svg {position: absolute;bottom: -5px;left: 0;width: 100%;z-index: 2;}
+.svg svg {fill: #fff;width: 100%;}
+/* Body */
+#container{max-width:750px;margin:0 auto;padding:0;position:relative;}
+.judulhd h2{text-align: center;padding-top: 6.8em;font-size: 30px;line-height: 40px}
+.sub{max-width:550px;margin:0 auto;padding:0;position:relative;}
+.sub p{align-content: center;max-width:550px;text-align: center;padding-top: 20px;font-size: 15px;line-height: 20px;color: #ddd;}
+.buttonh {max-width:550px;margin:0 auto;padding:0;position:relative;}
+.buttonh a {padding:10px 13px;display: block;border-radius: 3px;color: #fff;text-decoration: none;text-align: center;font-weight: 600;letter-spacing: .2px}
+.btnhead {margin: auto;width: 300px}
+.btnhead ul {padding:30px 0;list-style:none;}
+.btnhead li {float: left;position:relative;}
+.btnhead li a {border:1px solid rgba(255,255,255,.3);padding:10px 13px;margin: 0 0 0 10px;display: block;border-radius: 3px;color: #fff;text-decoration: none;text-align: center;font-weight: 600;letter-spacing: .2px}
+.btnhead li.daftar a {background:#3498db;border:1px solid rgba(255,255,255,.3);}
+.btnhead li a:hover {background:rgba(255,255,255,.3);color: #fff;}
+.btnhead li.daftar a:hover {background:rgba(255,255,255,.3);color: #fff;}
+#aboutbox{background: #fff;height: 90vh;}
+#acontainer{max-width:970px;margin:0 auto;padding:0;position:relative;}
+#aboutbox img{width: 300px;height: 400px;margin: 5em 0}
+.adeskripsi {float: right;width: 600px;text-align: left;margin: 6em 0}
+.adeskripsi h2{color: rgba(0,0,0,0.7);font-size: 43px;margin: 30px 0}
+.adeskripsi span{color: rgba(0,0,0,0.5);font-size: 14px;letter-spacing: .2px}
+#footer{height: 100px;text-align: center;vertical-align: middle;font-size: 14px;color: rgba(0,0,0,0.6);padding: 45px;background: #fff;border-top:1px solid rgba(0,0,0,.07);}
